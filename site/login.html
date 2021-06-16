@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/login.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <title>Accueil</title>
+</head>
+
+<body>
+    <form novalidate>
+        <h1>Connexion</h1>
+        <div class="case">
+            <label for="nom">Nom d'utilisateur</label>
+            <input type="text" id="nom" name="nom" placeholder="Nom d'utilisateur" required >
+            <p>Nom d'utilisateur introuvable</p>
+        </div>
+
+        <div class="case">
+            <label for="prenom">Mot de passe</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Mot de passe" required >
+            <p>Mot de passe incorect</p>
+        </div>
+
+        <div class="oublie">
+            <a href="mdpoublie.html">Mot de passe oublié</a>
+        </div>
+
+        <div class='save'>
+            <input type="checkbox" id="checkbox" name="checkbox" checked>
+            <label for="checkbox"><a>Se souvenir de moi</a></label>
+        </div>
+
+        <div class="button">
+            <button type="submit">Se connecter</button>
+        </div>
+    </form>
+</body>
+
+</html>
+
+
+
+
+
